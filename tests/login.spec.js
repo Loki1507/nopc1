@@ -11,4 +11,5 @@ test("login", async ({ page }) => {
     await login.navigateToLoginpage()
     //login into the application
     await login.loginIntoApp();
+    console.log("log in successful and this is the message for Jenkins")
 });
